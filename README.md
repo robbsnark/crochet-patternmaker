@@ -1,25 +1,19 @@
-# stitch-counter
+# crochet-patternmaker
 Assignment for Java class
 
-# Utkast/WIP till inlämningsuppgiften
-Syfte: Att snabbt generera ett skrivet, lättförstått virkmönster (en platt cirkel) i användarens valda storlek.
+WHAT
+To help the user generate a written, usable crochet pattern for their desired project.
 
-Tillvägagångssätt: Användaren får mata in en önskad storlek på cirkeln och får tillbaka instruktioner för att uppnå målet.
+HOW
+The program asks the user what kind of shape they want to crochet; then, depending on the answer, asks follow-up questions in order to generate the most fitting pattern.
+For crocheting a circle, the user can either receive a pattern with a default value connected to the TYPE OF STITCH they're planning to use (a taller stitch generates a pattern with a higher amount of stitches); 
+OR they can choose to INPUT the AMOUNT OF STITCHES they want to start with, and the algorithm will write out the custom pattern.
+For crocheting a square, there are two options that are chosen from in a far more straightforward manner, as the algorithm for squares aren't as impressive, honestly.
+There's a third choice/child/shape to give an idea of how the program could continue to be expanded by adding more shapes.
 
-# Förbättringar till slutversionen
-Användandet av nån sorts dubbel while-loop fungerar men känns opolerat.
-
-Ytterligare två klasser behövs för att uppfylla uppgiftsinstruktionerna.
-
-? You tell me
-
-# Extra info
-  I utkastet använde jag garnet Järbo Lady som gav ca 1 rad/row = 1 cm, så när användaren matar in storlek är det cm för just det garnet. Dvs om hen skulle mata in "10" kommer det, med just det garnet, bli 10 cm.
-
-  Programmet räknar utefter att användaren kommer virka 10 rader/rows.
-  
-  Det går bara att skriva in tal från 6 och uppåt (annars blir inte ringen i början ordentlig) och bara jämna tal (för enkelhets och mönstertraditions skull).
-  
-  Obs! Om man skulle prova mönstret med ovannämnda garn bör man inte använda svart eller mörkgrå (inkonsekventa tjocklekar på just de färgerna av nån anledning).
-  
-  
+REFLECTION
+I mean, it works... right?
+Stepping away from the project for a little bit made some things make more sense once I got back into it, like inheritances and coming up with more interesting ideas to expand the program.
+the IncreaseGuide is left from an earlier version of this, and it's kind of weird that it still exists like it does now. I'd probably move its contents to somewhere that makes more sense, or call it something more related to Circle.
+Also add some try/catches and more sensible things like that.
+I really hope I didn't miss anything vital. I didn't hear about that second deadline so I've been working from the feedback from my first attempt. 
